@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 import PackageDescription
 let package = Package(
   name: "WebexConnect",
@@ -29,12 +29,14 @@ let package = Package(
       .binaryTarget(
           name: "WebexConnectPush",
           url: "https://github.com/balaobulreddy/modularizedsdk/releases/download/2.20.0/WebexConnectPush.zip",
-          checksum: "e567c012f801c0faed150832fd3e74360e81830e8330f79908e9a4a629f1a4b1"
+          checksum: "e567c012f801c0faed150832fd3e74360e81830e8330f79908e9a4a629f1a4b1",
+          dependencies: ["WebexConnectCore"]
       ),
     .binaryTarget(
           name: "WebexConnectInAppMessaging",
           url: "https://github.com/balaobulreddy/modularizedsdk/releases/download/2.20.0/WebexConnectInAppMessaging.zip",
-          checksum: "c7c57c35bed1db2ec1f4771a27cc127f5c76b871c775d9440c821bbd762d9e20"
+          checksum: "c7c57c35bed1db2ec1f4771a27cc127f5c76b871c775d9440c821bbd762d9e20",
+          dependencies: ["WebexConnectCore"]
       ),
       .binaryTarget(
           name: "WebexConnectNotificationServiceExtension",
