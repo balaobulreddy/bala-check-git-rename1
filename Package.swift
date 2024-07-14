@@ -24,7 +24,7 @@ let package = Package(
       .binaryTarget(
           name: "WebexConnectCore",
           url: "https://github.com/balaobulreddy/modularizedsdk/releases/download/2.20.0/WebexConnectCore.zip",
-          checksum: "e117a22235bec321eb5a6d446cdf318e73b5b07d874c92063187bd4acfe18070"
+          checksum: "{"message":"Error communicating with the internal API. This frequently occurs when the internal API is having issues","request_id":"9e04dc89-41fc-11ef-8c68-34255b147e94"}"
       ),
       .binaryTarget(
           name: "WebexConnectPush",
