@@ -24,22 +24,22 @@ let package = Package(
       .binaryTarget(
           name: "WebexConnectCore",
           url: "https://github.com/balaobulreddy/modularizedsdk/releases/download/2.20.0/WebexConnectCore.zip",
-          checksum: "{"message":"Error communicating with the internal API. This frequently occurs when the internal API is having issues","request_id":"9e04dc89-41fc-11ef-8c68-34255b147e94"}"
+          checksum: "0cfe3181c1b05e6f688daf9bdb1f50ef48eeb78e0ff7c63a8c69477a37bae857"
       ),
       .binaryTarget(
           name: "WebexConnectPush",
           url: "https://github.com/balaobulreddy/modularizedsdk/releases/download/2.20.0/WebexConnectPush.zip",
-          checksum: "e567c012f801c0faed150832fd3e74360e81830e8330f79908e9a4a629f1a4b1"
+          checksum: "e8dc35d5ddbb6ea1e3a2feb5114eb006415fdca45a4daa9bc001988ae820077a"
       ),
     .binaryTarget(
           name: "WebexConnectInAppMessaging",
           url: "https://github.com/balaobulreddy/modularizedsdk/releases/download/2.20.0/WebexConnectInAppMessaging.zip",
-          checksum: "c7c57c35bed1db2ec1f4771a27cc127f5c76b871c775d9440c821bbd762d9e20"
+          checksum: "9c1aecaa5efa4ce0ce67f21f5eeac6a426ac4db40088fece47f54e636d5fbeb3"
       ),
       .binaryTarget(
           name: "WebexConnectNotificationServiceExtension",
           url: "https://github.com/balaobulreddy/modularizedsdk/releases/download/2.20.0/WebexConnectNotificationServiceExtension.zip",
-          checksum: "5225d0d79d3438ddbbb567b0f31703e5d7b4d25e2a63d11af7b9957b1ffd4e6d"
+          checksum: "6905b9b6cf4003a545f5c4792c700b8f8d02875f4ab15186991092a5bbdedadd"
       )
   ]
 )
